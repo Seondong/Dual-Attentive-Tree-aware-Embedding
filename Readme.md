@@ -1,12 +1,18 @@
 # DATE: Dual Attentive Tree-aware Embedding for Customs Fraud Detection
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-Implementation of our KDD paper [DATE: Dual Attentive Tree-aware Embedding for Customs Fraud Detection](kdd2020-date.pdf).
+Implementation of our KDD paper [DATE: Dual Attentive Tree-aware Embedding for Customs Fraud Detection](./KDD2020/kdd2020-date-paper.pdf). 
+
+[[Slides]](./KDD2020/kdd2020-date-slides.pdf) [[Presentation]](https://youtu.be/S-29rTbvH6c) [[Promotional video]](https://youtu.be/YhfxCHBNM2g)
 
 DATE is a model to classify and rank illegal trade flows that contribute the most to the overall customs revenue when caught.
 * DATE combines a tree-based model for interpretability and transaction-level embeddings with dual attention mechanisms. 
 * DATE learns simultaneously from illicitness and surtax of each transaction.
 * DATE shows 92.7% precision on illegal cases and a recall of 49.3% on revenue after inspecting only 1% of all trade flows in Nigeria.
+
+## Preliminaries
+For preliminary understanding, we suggest readers to look below repository, which is dedicated to providing stepping stones toward DATE model for Customs administrations and officials, who want to develop their capacities to use machine learning in their daily works. The repository provides prerequisite knowledge and practices for machine learning, so that Customs community could better understand cutting edge algorithms in DATE model.
+> [Machine Learning for Customs Fraud Detection](https://github.com/YSCHOI-github/Customs_Fraud_Detection)
 
 
 ## Overview of the Transaction-level Import Data
